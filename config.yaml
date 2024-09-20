@@ -1,9 +1,9 @@
 title: Suecipes
-baseURL: 'suecipes.netlify.app'
+baseURL: 'https://suecipes.netlify.app'
 languageCode: 'en-us'
 theme: [lugo-master]
 
-
+relativeURLs: true
 params:
   # "relatedtext" is the text that appears above the tag list at the bottom of pages.
   relatedtext: ""
