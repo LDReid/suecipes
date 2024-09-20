@@ -1,5 +1,5 @@
 title: Suecipes
-baseURL: 'https://example.org'
+baseURL: 'suecipes.netlify.app'
 languageCode: 'en-us'
 theme: [lugo-master]
 
