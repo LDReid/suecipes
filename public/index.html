@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.134.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<title>Suecipes</title>
+	<link rel="canonical" href="http://localhost:1313/">
+	<link rel='alternate' type='application/rss+xml' title="Suecipes RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+<div class="top-bar"><h1 class="site-title"><a href="/">Suecipes</a></h1><img src="/images/leon-icon.svg" alt="" id="leon-icon"></div>
+<main>
+<div>
+<div class="search">
+<form action="/search" method="GET">
+    <input type="search" name="q" id="search-query" placeholder="Find a recipe...">
+    <button type="submit">Search</button>
+  </form>
+</div>
+</div>
+<header><h1 id="tag_Suecipes"></h1></header>
+<article>
+
+<ul id="recipes-main">
+
+    <li><a href="http://localhost:1313/white-bread/">White Bread</a></li>
+
+    <li><a href="http://localhost:1313/japanese-curry/">Japanese Curry</a></li>
+
+    <li><a href="http://localhost:1313/crinkle-cookies/">Crinkle Cookies</a></li>
+
+    <li><a href="http://localhost:1313/easter-nests/">Easter Nests</a></li>
+
+    <li><a href="http://localhost:1313/butter-chicken/">Butter Chicken</a></li>
+
+    <li><a href="http://localhost:1313/onigiri/">Onigiri</a></li>
+
+    <li><a href="http://localhost:1313/carrot-cake/">Carrot Cake</a></li>
+
+    <li><a href="http://localhost:1313/chilli/">Chili con carne</a></li>
+
+</ul>
+<script>
+
+	
+	const colors = ['#FAE7EB', '#E0D4E7', '#DBEEF7', '#F8EDEB', '#FCD5CE', '#FFDAB9', '#F1CEBE', '#D0EDEF', '#E1F6F2', '#F8EDEB', '#FAE1DD', '#D8E2DC',  '#F5EBE0',  '#FFF5ED',  '#FAE0D8',  '#EEECF4',  '#F7F5FF',  '#E4F4E3', '#F1EFEB', '#DDD5D5', '#D3DCE8', '#FFF1F5', '#F6EEE9', '#EEF6F2', '#E9EDC9', '#E7F1DC', '#FEFAE0', '#FFE5D9', '#FAF7F0', '#F8EDEB',  ];
+  
+	
+	const listItems = document.querySelectorAll('#recipes-main li a');
+  
+	
+	listItems.forEach(item => {
+		const randomColor = colors[Math.floor(Math.random() * colors.length)];
+		item.style.boxShadow = `0px 3px ${randomColor}`;
+	});
+
+</script>
+
+</article>
+</main>
+
+<footer>
+	<a href="http://localhost:1313/">http://localhost:1313/</a>
+</footer>
+
+</body>
+</html>

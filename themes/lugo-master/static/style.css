@@ -1,0 +1,301 @@
+:root{
+	--text: rgb(35, 31, 32);
+	--border: rgb(238, 238, 238);
+	--bg: #f6f5f2;
+	--greyblue-fade: #9cabae;
+	--greyblue: #698990;
+	--medium-text:#9c9c9c;
+
+}
+
+body {
+	font-family: "PT Serif";
+	color: var(--text);
+	background-color: var(--bg);
+	margin:0;
+
+}
+	.pt-serif-regular {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+	
+	.pt-serif-bold {
+		font-family: "PT Serif", serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	
+	.pt-serif-regular-italic {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+	
+	.pt-serif-bold-italic {
+		font-family: "PT Serif", serif;
+		font-weight: 700;
+		font-style: italic;
+	}
+
+	.pt-serif-caption-regular {
+		font-family: "PT Serif Caption", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	  
+	  .pt-serif-caption-regular-italic {
+		font-family: "PT Serif Caption", serif;
+		font-weight: 400;
+		font-style: italic;
+	  }
+
+.top-bar{
+	margin-inline:50px;
+	margin-block:50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#leon-icon{
+	width:35px;
+}
+.site-title{
+	font-family: "PT Serif Caption";
+	text-transform: uppercase;
+	font-weight:900;
+	font-size: 14px;
+}
+.site-title a{
+	color: var(--text);
+	text-decoration: none;
+}
+main {
+	max-width: 500px ;
+	margin: auto ;
+	background-color: white;
+	padding:20px;
+}
+
+img {
+	max-width: 100% ;
+}
+header{
+	border-bottom: 1px dotted var(--medium-text);
+}
+header h1 {
+	text-align: left ;
+}
+a{
+	color: var(--greyblue);
+}
+a:hover{
+	color: var(--greyblue-fade);
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+	margin-block:6px;
+}
+#recipes-main{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+#recipes-main li a{
+	text-decoration: none;
+}
+footer {
+	text-align: center ;
+	clear: both ;
+	padding-block:40px;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: left ;
+	clear: both ;
+	font-family: "PT Serif Caption", serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin:0 auto;
+	margin-top:50px;
+	text-align: center;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+
+/* Ingredient list note book element*/
+td{
+	padding-block:8px;
+	padding-right:10px;
+	border-bottom: 1px solid var(--border);
+}
+th{
+	text-align: left;
+}
+.ingredient-list-grid{
+	width:fit-content;
+	image-rendering: pixelated;
+	position: relative;
+	margin:0 auto;
+	left:-5px;
+}
+.ingredient-list-grid img{
+	margin:0;
+}
+.ingredient-list-grid table{
+	margin:0;
+}
+.T-middle{
+	background-image: url(/images/notebookArtboard-1-copy-5_3.png);
+	background-repeat: repeat-x;
+	width: 100%;
+
+}
+.B-middle{
+	background-image: url(/images/notebookArtboard-1-copy-10.png);
+	background-repeat: repeat-x;
+	width: 100%;
+}
+.ingredient-wrapper{
+	margin-inline:-20px;
+	padding:15px;
+	background-image: url(/images/k01-bg-biascheck_r1.gif);
+	background-repeat: repeat;
+	background-size: 40px;
+	border-radius: 10px;
+	image-rendering: pixelated;
+}
+.ingredient-list-grid-top{
+	display: flex;
+}
+.ingredient-list-grid-bottom{
+	display: flex;
+}
+.ingredient-list-grid-bottom img{
+	margin:0;
+}
+.ingredient-list-body{
+	display:flex;
+}
+.ingredient-list{
+	display:flex;
+	flex-wrap: wrap;
+	gap:var(--gap);
+	padding: 0.4em;
+	padding-inline: 20px;
+	/*border: 1px solid var(--border);*/
+	/*background: var(--code-bg);*/
+	background-image: url(/images/notebookArtboard-1-copy-3.png);
+	border-radius: var(--radius);
+	/*max-width:max-content;*/
+}
+
+.ingredient-list-bind{
+	background-image: url(/images/notebookArtboard-1-copy-4.png);
+	background-repeat: repeat-y;
+	padding-left:40px;
+	height:max-content;
+	display: flex;
+	/*padding-left: 40px;*/
+}
+.ingredient-list-edge{
+	background-image: url(/images/notebookArtboard-1-copy-2.png);
+	background-repeat: repeat-y;
+	padding-left:28px;
+
+}
+/* ingredient list end */
+.post-page{
+background-color: var(--code-bg);
+background-image: var(--defaultbg);
+background-repeat: repeat;
+}
+
+.breadcrumbs, .post_meta {
+    color: var(--secondary);
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+	font-weight: normal;
+	font-family: "PT Serif Caption";
+}
+
+/*search box*/
+form{
+	font-family: "PT Serif Caption";
+	display:flex;
+	gap:2px;
+}
+button{
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: "PT Serif Caption";
+	background-color: white;
+	border: 1px solid var(--medium-text);
+	border-radius: 2px;
+}
+button:active{
+	background-color: var(--bg);
+	transform: scale(0.95);
+}
+.search{
+	margin-top:-40px;
+	padding:15px;
+	border-radius: 4px;
+	background-color: white;
+	border:3px solid var(--bg);
+}
+#search-query {
+	font-family: "PT Serif Caption";
+    width: 100%;
+    font-weight: normal;
+	border: 1px solid var(--medium-text);
+	border-radius: 2px;
+}
+
+#search-results li {
+    list-style: none;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    font-weight: 500;
+}
+.leon-wrapper{
+	max-width:500px;
+	margin:0 auto;
+}
+#leon{
+	position: relative;
+}
+#sheep{
+	display: block;
+	margin:0 auto;
+}
+
+@media screen and (max-width: 650px){
+	.top-bar{
+		margin-inline:auto;
+		max-width:600px;
+		padding-inline:15px;
+	}
+}

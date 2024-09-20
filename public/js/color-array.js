@@ -1,0 +1,12 @@
+
+	// Define an array of colors
+	const colors = ['#FAE7EB', '#E0D4E7', '#DBEEF7', '#F8EDEB', '#FCD5CE', '#FFDAB9', '#F1CEBE', '#D0EDEF', '#E1F6F2', '#F8EDEB', '#FAE1DD', '#D8E2DC',  '#F5EBE0',  '#FFF5ED',  '#FAE0D8',  '#EEECF4',  '#F7F5FF',  '#E4F4E3', '#F1EFEB', '#DDD5D5', '#D3DCE8', '#FFF1F5', '#F6EEE9', '#EEF6F2', '#E9EDC9', '#E7F1DC', '#FEFAE0', '#FFE5D9', '#FAF7F0', '#F8EDEB',  ];
+  
+	// Get all list items
+	const listItems = document.querySelectorAll('#recipes-main li a');
+  
+	// Function to set random background color to each list item
+	listItems.forEach(item => {
+		const randomColor = colors[Math.floor(Math.random() * colors.length)];
+		item.style.boxShadow = `0px 3px ${randomColor}`;
+	});
