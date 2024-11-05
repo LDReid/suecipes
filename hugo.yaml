@@ -9,9 +9,15 @@ params:
   relatedtext: ""
   favicon: "/favicon.ico"
 
+  #single
+  hideAuthor: true
+  ShowWordCount: false
+  DateFormat: "Jan 2, 2006"
+  ShowDate: false
+
   #list items
   datesinlist: false
-  authorsinlist: true
+  authorsinlist: false
 
   #footer items
   nextprev: false
@@ -35,5 +41,13 @@ params:
 
 summaryLength: 30
 
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
 outputs:
-    home: [HTML, RSS, JSON]
+  home: ["HTML","RSS", "JSON", "SearchIndex"]
+  section: ["HTML","RSS", "JSON"]

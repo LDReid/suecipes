@@ -1,33 +1,45 @@
 <div class="post_meta">
-{{- $scratch := newScratch }}
-
-{{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
-{{- end }}
-
-{{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
-{{- end }}
-
-{{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
-{{- end }}
-
-{{- if not (.Param "hideAuthor") -}}
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
-{{- end }}
-{{- end }}
-
-{{- if (.Param "totaltime") -}}
-{{- $scratch.Add "meta" (index .Params.totaltime ) }}
-{{- end }}
-
-{{- if (.Param "yield") -}}
-{{- $scratch.Add "meta" (index .Params.yield ) }}
-{{- end }}
-
-{{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
-{{- end -}}
-</div>
+    {{- $metadata := slice -}}
+  
+    <!-- Display Date if ShowDate is true -->
+    {{- $displayDate := default "" (and .Site.Params.ShowDate (not .Date.IsZero) .Date) }}
+    {{- if $displayDate -}}
+      {{- $formattedDate := printf "<span title='%s'>%s</span>" $displayDate ($displayDate | time.Format (default "January 2, 2006" .Site.Params.DateFormat)) -}}
+      {{- $metadata = $metadata | append $formattedDate -}}
+    {{- end }}
+  
+    <!-- Show Reading Time if ShowReadingTime is true -->
+    {{- if (.Param "ShowReadingTime") -}}
+      {{- $readingTime := i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime) -}}
+      {{- $metadata = $metadata | append (printf "<span>%s</span>" $readingTime) -}}
+    {{- end }}
+  
+    <!-- Show Word Count if ShowWordCount is true -->
+    {{- if (.Param "ShowWordCount") -}}
+      {{- $wordCount := i18n "words" .WordCount | default (printf "%d words" .WordCount) -}}
+      {{- $metadata = $metadata | append (printf "<span>%s</span>" $wordCount) -}}
+    {{- end }}
+  
+    <!-- Show Author if hideAuthor is not true -->
+    {{- if not (.Param "hideAuthor") -}}
+      {{- with (partial "author.html" .) }}
+        {{- $metadata = $metadata | append (printf "<span>%s</span>" .) -}}
+      {{- end }}
+    {{- end }}
+  
+    <!-- Display Total Time if totaltime is set -->
+    {{- if (.Param "totaltime") -}}
+      {{- $metadata = $metadata | append (printf "<span>⏱️ %s</span>" .Params.totaltime) -}}
+    {{- end }}
+  
+    <!-- Display Yield if yield is set -->
+    {{- if (.Param "yield") -}}
+      {{- $metadata = $metadata | append (printf "<span>🍽️ %s</span>" .Params.yield) -}}
+    {{- end }}
+  
+    <!-- Output the metadata, separated by · -->
+    {{- with $metadata }}
+      {{- delimit . "&nbsp;–&nbsp;" | safeHTML -}}
+    {{- end }}
+  </div>
+  

@@ -25,15 +25,24 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#698990">
 	<meta name="msapplication-TileColor" content="#603cba">
 	<meta name="theme-color" content="#ffffff">
-	
-	
+
+	{{ $flexsearch := resources.Get "libs/flexsearch.compact.js" | fingerprint -}}
+	<script defer src="{{ $flexsearch.RelPermalink }}"></script>
+	{{ $search_params := dict "params" (dict "searchLimit" (site.Params.searchLimit | default 20) "basePath" site.Home.RelPermalink) -}}
+	{{ $search := resources.Get "js/search.js" | js.Build $search_params | fingerprint -}}
+	<script defer src="{{ $search.RelPermalink }}"></script>
+
 </head>
 <body>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 <div class="top-bar"><h1 class="site-title"><a href="/">{{ .Site.Title}}</a></h1><img src="/images/leon-icon.svg" alt="" id="leon-icon"></div>
+<div class="page-intro">{{block "page-intro" . }}{{ end }}</div>
 <main>
-<div>{{ block "search" . }}{{ end }}</div>
-<header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+{{ partial "search" }}
+<div class="search-results"></div>
+{{ if not .IsHome }}
+  <header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+{{ end }}
 <article>
 {{ block "main" . }}
 {{ .Content }}
@@ -42,6 +51,7 @@
 {{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
 </article>
 </main>
+<!--<div class="flower-wrapper"><img src="/images/tumblr_6319908b5a2a8c501f653305e739f5ae_4df554d0_400.png" alt="" id="flowers"></div>-->
 {{ block "footer" . }}
 <footer>
 	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>

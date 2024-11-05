@@ -2,7 +2,7 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Search | Suecipes</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="//localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Suecipes RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<link rel="icon" href="/favicon.ico">
@@ -15,42 +15,51 @@
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
 	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#698990">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+
+	<script defer src="/libs/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js"></script>
+	<script defer src="/js/search.73f2b80d853125f9bc8895c303cab36a7ca8af03bb988a033d121dd84387c37a.js"></script>
+
 </head>
 <body>
 <div class="top-bar"><h1 class="site-title"><a href="/">Suecipes</a></h1><img src="/images/leon-icon.svg" alt="" id="leon-icon"></div>
+<div class="page-intro"></div>
 <main>
-<div>
-<div class="search">
-<form action="/search" method="GET">
-    <input type="search" name="q" id="search-query" placeholder="Find a recipe...">
-    <button type="submit">Search</button>
+<div class="search"><div class="error message js-hidden"></div>
+<div class="search-loading status message hidden"></div>
+
+<div class="search-input hidden">
+  <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+    <label for="query" class="visually-hidden"></label>
+    <input type="search" id="query" name="query" class="search-text" id="search-query" placeholder="Search recipes..." maxlength="128">
   </form>
 </div>
 </div>
-<header><h1 id="tag_Search"></h1></header>
-<article>
 
+<template>
+  <article class="search-results list-view">
+    <div id="recipes-main">
+      <li class="search-item"><a href="#">Title here</a></li>
       
-    <div id="search-results"></div>
-    <div class="search-loading">Loading...</div>
-
-    <script id="search-result-template" type="text/x-js-template">
-    <div id="summary-${key}">
-        <h3><a href="${link}">${title}</a></h3>
-        <p>${snippet}</p>
-        <p>
-            <small>
-                ${ isset tags }Tags: ${tags}<br>${ end }
-            </small>
-        </p>
     </div>
-    </script>
-
-    <script src="/js/search.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </article>
+</template>
+
+<div class="search-results"></div>
+
+  <header><h1 id="tag_Search">
+Search
+<div class="post_meta"></div>
+</h1></header>
+
+<article>
 
 
 
@@ -59,7 +68,7 @@
 </main>
 
 <footer>
-	<a href="http://localhost:1313/">http://localhost:1313/</a>
+	<a href="//localhost:1313/">//localhost:1313/</a>
 </footer>
 
 </body>

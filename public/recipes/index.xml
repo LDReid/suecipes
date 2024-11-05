@@ -1,29 +1,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Suecipes</title>
-	<link>http://localhost:1313/recipes/</link>
+	<link>//localhost:1313/recipes/</link>
 	<description>Recent content in Recipes on Suecipes</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
     
-        <atom:link href="http://localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="//localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Chili con carne</title>
-		<link>http://localhost:1313/chilli/</link>
+		<link>//localhost:1313/chilli/</link>
 		<pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
 		
-		<guid>http://localhost:1313/chilli/</guid>
+		<guid>//localhost:1313/chilli/</guid>
 		<description>&lt;p&gt;MMMMMM Chili!
 all the bleod goingh streait too mai borgeir
   
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -90,9 +90,9 @@ all the bleod goingh streait too mai borgeir
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -100,15 +100,6 @@ all the bleod goingh streait too mai borgeir
 &lt;p&gt;Flip ivan on to his head&lt;/p&gt;
 &lt;p&gt;send the bleod to his borgier&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>Search</title>
-		<link>http://localhost:1313/search/</link>
-		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/search/</guid>
-		<description></description>
 	</item>
 	
 	</channel>

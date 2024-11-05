@@ -2,48 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-20T13:20:58-04:00</lastmod>
+    <loc>//localhost:1313/tags/pumpkin/</loc>
+    <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/white-bread/</loc>
-    <lastmod>2024-09-20T13:20:58-04:00</lastmod>
+    <loc>//localhost:1313/pumpkin-bread/</loc>
+    <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/japanese-curry/</loc>
-    <lastmod>2024-09-20T13:20:32-04:00</lastmod>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/crinkle-cookies/</loc>
-    <lastmod>2024-09-20T13:20:17-04:00</lastmod>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/easter-nests/</loc>
-    <lastmod>2024-09-20T13:20:05-04:00</lastmod>
+    <loc>//localhost:1313/tags/chicken/</loc>
+    <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/butter-chicken/</loc>
-    <lastmod>2024-09-20T13:19:40-04:00</lastmod>
+    <loc>//localhost:1313/lemon-chicken-orzo-soup/</loc>
+    <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/onigiri/</loc>
-    <lastmod>2024-09-20T13:19:24-04:00</lastmod>
+    <loc>//localhost:1313/tags/soup/</loc>
+    <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/carrot-cake/</loc>
-    <lastmod>2024-09-20T13:19:03-04:00</lastmod>
+    <loc>//localhost:1313/tags/baking/</loc>
+    <lastmod>2024-11-03T14:48:02-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chilli/</loc>
+    <loc>//localhost:1313/tags/cookies/</loc>
+    <lastmod>2024-11-03T14:48:02-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/grandads-ginger-molasses-cookies/</loc>
+    <lastmod>2024-11-03T14:48:02-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/crispy-baked-chicken-thighs/</loc>
+    <lastmod>2024-11-03T14:33:07-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/chilli/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chilli/</loc>
+    <loc>//localhost:1313/tags/chilli/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/comfort/</loc>
+    <loc>//localhost:1313/tags/comfort/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/warm/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/warm/</loc>
-    <lastmod>2024-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-    <priority>0.1</priority>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>

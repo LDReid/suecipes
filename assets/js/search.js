@@ -35,8 +35,8 @@ import * as params from '@params';
       const content = result.querySelector('.content');
       a.innerHTML = item.title;
       a.href = item.permalink;
-      time.innerText = item.date;
-      content.innerHTML = item.summary;
+      /*time.innerText = item.date;*/
+      /*content.innerHTML = item.summary;*/
       fragment.appendChild(result);
     }
     results.appendChild(fragment);
@@ -95,12 +95,12 @@ import * as params from '@params';
       }
     });
   
-    // Hide results when clicking outside of input
+    /*// Hide results when clicking outside of input
     document.addEventListener('click', function (e) {
       if (!searchform.contains(e.target)) {
         resultsContainer.style.display = 'none';  // Hide results when clicking outside
       }
-    });
+    });*/
   
     // Show the search UI
     document.querySelector('.search-loading').classList.add('hidden');

@@ -2,7 +2,7 @@
 <html lang="en">
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>404 Page Not Found | Suecipes</title>
-	<link rel="canonical" href="http://localhost:1313/">
+	<link rel="canonical" href="//localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Suecipes RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<link rel="icon" href="/favicon.ico">
@@ -15,14 +15,49 @@
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
 	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#698990">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+
+	<script defer src="/libs/flexsearch.compact.64594b125f7b78bdf4fa8316955922bbebb1cd6baef3f16654bfca20309f18f8.js"></script>
+	<script defer src="/js/search.58f52276bde3bb4667cf89735666e647e4ba492776a2e28fbc133fe8cf1e408e.js"></script>
+
 </head>
 <body>
 <div class="top-bar"><h1 class="site-title"><a href="/">Suecipes</a></h1><img src="/images/leon-icon.svg" alt="" id="leon-icon"></div>
+<div class="page-intro"></div>
 <main>
-<div></div>
-<header><h1 id="tag_404 Page not found">
+<div class="search"><div class="error message js-hidden"></div>
+<div class="search-loading status message hidden"></div>
+
+<div class="search-input hidden">
+  <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+    <label for="query" class="visually-hidden"></label>
+    <input type="search" id="query" name="query" class="search-text" id="search-query" placeholder="Search recipes..." maxlength="128">
+  </form>
+</div>
+</div>
+
+<template>
+  <article>
+    <div id="recipes-main" class="search-results-item">
+      <li class="search-item"><a href="#">Title here</a></li>
+      
+    </div>
+    
+  </article>
+</template>
+
+<div class="search-results"></div>
+
+  <header><h1 id="tag_404 Page not found">
 404 Page not found
 </h1></header>
+
 <article>
 
 <img src="/images/sleepy-sheep.webp" alt="" id="sheep">
@@ -31,8 +66,9 @@
 </article>
 </main>
 
+
 <footer>
-	<a href="http://localhost:1313/">http://localhost:1313/</a>
+	<a href="//localhost:1313/">//localhost:1313/</a>
 </footer>
 
 </body>

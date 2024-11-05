@@ -1,28 +1,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>Suecipes</title>
-	<link>http://localhost:1313/tags/chilli/</link>
+	<link>//localhost:1313/tags/chilli/</link>
 	<description>Recent content in Chilli on Suecipes</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/chilli/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="//localhost:1313/tags/chilli/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>White Bread</title>
-		<link>http://localhost:1313/white-bread/</link>
-		<pubDate>Fri, 20 Sep 2024 13:20:58 -0400</pubDate>
+		<title>Pumpkin Bread</title>
+		<link>//localhost:1313/pumpkin-bread/</link>
+		<pubDate>Sun, 03 Nov 2024 15:19:02 -0500</pubDate>
 		
-		<guid>http://localhost:1313/white-bread/</guid>
+		<guid>//localhost:1313/pumpkin-bread/</guid>
 		<description>  
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -37,36 +37,48 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Flour&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 cups&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Salt&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1/2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Baking soda&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Baking powder&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1/2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ground cloves&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cinnamon&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ground nutmeg&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Unsalted butter (softened)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3/4 cup&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sugar&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 cup&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Large eggs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Pumpkin Puree&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;15 oz. can&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -77,28 +89,38 @@
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Pre-heat oven to 325º&lt;/p&gt;
+&lt;p&gt;Grease 2 4x8 loaf pans with butter and then dust with flour&lt;/p&gt;
+&lt;p&gt;In a medium bowl, combine salt, flour, baking soda, baking powder, cloves, cinnamon, and nutmeg.&lt;/p&gt;
+&lt;p&gt;Whisk until combined and set aside.&lt;/p&gt;
+&lt;p&gt;In a large bowl of an electric mixer, beat the butter and sugar on a medium speed until just blended. Add eggs one at a time beating well after each addition. Continue beating until very light and fluffy (A few minutes.) Then beat in the pumpkin.&lt;/p&gt;
+&lt;p&gt;Add the flour mixture and mix on low speed until combined.&lt;/p&gt;
+&lt;p&gt;Turn the batter into the prepared pans, divide evenly and bake for 65-75 minutes, or until a cake tester comes out clean.&lt;/p&gt;
+&lt;p&gt;Let the loaves cool in the pans for 10 minutes then turn on to a wire rack to cool completely.&lt;/p&gt;
+&lt;p&gt;And enjoy 🙂&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Japanese Curry</title>
-		<link>http://localhost:1313/japanese-curry/</link>
-		<pubDate>Fri, 20 Sep 2024 13:20:32 -0400</pubDate>
+		<title>Lemon Chicken Orzo Soup</title>
+		<link>//localhost:1313/lemon-chicken-orzo-soup/</link>
+		<pubDate>Sun, 03 Nov 2024 14:58:21 -0500</pubDate>
 		
-		<guid>http://localhost:1313/japanese-curry/</guid>
+		<guid>//localhost:1313/lemon-chicken-orzo-soup/</guid>
 		<description>  
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -113,36 +135,60 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Celery&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 sticks&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Carrots&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 (medium size)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Onions&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1/2 (medium size)&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Butter&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tbsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Olive oil&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tbsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Garlic cloves&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Flour&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tbsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Chicken broth&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;6 cups&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Italian seasoning&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1/4 Tsp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Chicken breasts&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1.5 lbs (uncooked)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Orzo&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 cup (uncooked)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Lemon juice&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tbsp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Parsley&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tbsp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Salt &amp;amp; pepper&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;To taste&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -153,28 +199,38 @@
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;Chop celery finely, peel and chop carrots finely, chop onion, and mince garlic.&lt;/p&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Sauté the celery, carrots, and onions, in a large soup pot with the butter and oil over medium-high heat for 5-7 minutes&lt;/p&gt;
+&lt;p&gt;Stir in the garlic and cook for about 30 seconds, then add the flour and cook for another minute or so.&lt;/p&gt;
+&lt;p&gt;Pour in chicken broth and stir until the flour has dissolved, then add the Italian seasoning and chicken. Bring the soup to a boil&lt;/p&gt;
+&lt;p&gt;Cover the soup (lid slightly ajar,) and reduce the heat and simmer for 15 minutes.&lt;/p&gt;
+&lt;p&gt;Stir in the orzo and cook for another 10 minutes or until the orzo is cooked through. Keep the lid off and stir it fairly often so it wont stick to the bottom of the pot.&lt;/p&gt;
+&lt;p&gt;Take the chicken out of the pot and cut it up, then add it back in. Add the lemon juice. (Some may opt for more lemon juice then suggested for more lemony flavour.) Add parsley and season the soup with salt and pepper as needed.&lt;/p&gt;
+&lt;p&gt;Serve immediately and enjoy 🙂&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Crinkle Cookies</title>
-		<link>http://localhost:1313/crinkle-cookies/</link>
-		<pubDate>Fri, 20 Sep 2024 13:20:17 -0400</pubDate>
+		<title>Grandads Ginger Molasses Cookies</title>
+		<link>//localhost:1313/grandads-ginger-molasses-cookies/</link>
+		<pubDate>Sun, 03 Nov 2024 14:48:02 -0500</pubDate>
 		
-		<guid>http://localhost:1313/crinkle-cookies/</guid>
+		<guid>//localhost:1313/grandads-ginger-molasses-cookies/</guid>
 		<description>  
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -189,36 +245,40 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;White sugar&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 cup&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Butter&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3/4 cup&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Molasses&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1/4 cup&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Egg&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;All purpose flour&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 cups&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Baking soda&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Cinnamon&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ground cloves&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Ginger powder&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -229,28 +289,33 @@
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Cream butter and sugar. Beat in molasses and egg. Add rest of ingredients, mix, then roll into little balls (about a teaspoon of dough per ball.)&lt;/p&gt;
+&lt;p&gt;Roll in white sugar and place on parchment paper lined cookie sheet. Bake at 350º for 8-9 minutes.&lt;/p&gt;
+&lt;p&gt;They will flatten as they bake.&lt;/p&gt;
+&lt;p&gt;Enjoy 🙂&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Easter Nests</title>
-		<link>http://localhost:1313/easter-nests/</link>
-		<pubDate>Fri, 20 Sep 2024 13:20:05 -0400</pubDate>
+		<title>Crispy Baked Chicken Thighs</title>
+		<link>//localhost:1313/crispy-baked-chicken-thighs/</link>
+		<pubDate>Sun, 03 Nov 2024 14:33:07 -0500</pubDate>
 		
-		<guid>http://localhost:1313/easter-nests/</guid>
+		<guid>//localhost:1313/crispy-baked-chicken-thighs/</guid>
 		<description>  
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -265,36 +330,36 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Chicken Thighs&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3 lbs&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Olive oil&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tbsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Salt&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Garlic powder&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Onion powder&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Italian seasoning&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;2 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Black pepper&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Paprika&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;1 Tsp&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -305,258 +370,36 @@
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Butter Chicken</title>
-		<link>http://localhost:1313/butter-chicken/</link>
-		<pubDate>Fri, 20 Sep 2024 13:19:40 -0400</pubDate>
-		
-		<guid>http://localhost:1313/butter-chicken/</guid>
-		<description>  
-&lt;div class=&#34;ingredient-wrapper&#34;&gt;
-  &lt;div class=&#34;ingredient-list-grid&#34;&gt;
-    &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
-      &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-bind&#34;&gt;
-      &lt;div class=&#34;ingredient-list-body&#34;&gt;
-        &lt;div class=&#34;ingredient-list&#34;&gt;
-          &lt;div&gt;
-            &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Ingredient&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Amount&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
-      &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Onigiri</title>
-		<link>http://localhost:1313/onigiri/</link>
-		<pubDate>Fri, 20 Sep 2024 13:19:24 -0400</pubDate>
-		
-		<guid>http://localhost:1313/onigiri/</guid>
-		<description>  
-&lt;div class=&#34;ingredient-wrapper&#34;&gt;
-  &lt;div class=&#34;ingredient-list-grid&#34;&gt;
-    &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
-      &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-bind&#34;&gt;
-      &lt;div class=&#34;ingredient-list-body&#34;&gt;
-        &lt;div class=&#34;ingredient-list&#34;&gt;
-          &lt;div&gt;
-            &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Ingredient&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Amount&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
-      &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-	</item>
-	
-	<item>
-		<title>Carrot Cake</title>
-		<link>http://localhost:1313/carrot-cake/</link>
-		<pubDate>Fri, 20 Sep 2024 13:19:03 -0400</pubDate>
-		
-		<guid>http://localhost:1313/carrot-cake/</guid>
-		<description>  
-&lt;div class=&#34;ingredient-wrapper&#34;&gt;
-  &lt;div class=&#34;ingredient-list-grid&#34;&gt;
-    &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
-      &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-bind&#34;&gt;
-      &lt;div class=&#34;ingredient-list-body&#34;&gt;
-        &lt;div class=&#34;ingredient-list&#34;&gt;
-          &lt;div&gt;
-            &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Ingredient&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Amount&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
-      &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;Pre-heat oven to 400º. Line a large backing sheet with foil for easy cleanup and set aside
+Remove the chicken thighs from their packaging and pat them dry wiht paper towels.&lt;/p&gt;
+&lt;p&gt;Arrange the chicken thighs on prepared baking sheet and drizzle with the oliveoil rubbing the oil into the chicken to coat.&lt;/p&gt;
+&lt;p&gt;In a small bowl, mix together the salt, pepper, garlic powder, onion powder, Italian seasoning, and paprika. Sprinkle the spices over the chicken evenly.&lt;/p&gt;
+&lt;p&gt;Bake chicken in preheated oven for 35-45 minutes.&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Chili con carne</title>
-		<link>http://localhost:1313/chilli/</link>
+		<link>//localhost:1313/chilli/</link>
 		<pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
 		
-		<guid>http://localhost:1313/chilli/</guid>
+		<guid>//localhost:1313/chilli/</guid>
 		<description>&lt;p&gt;MMMMMM Chili!
 all the bleod goingh streait too mai borgeir
   
 &lt;div class=&#34;ingredient-wrapper&#34;&gt;
   &lt;div class=&#34;ingredient-list-grid&#34;&gt;
     &lt;div class=&#34;ingredient-list-grid-top&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-7_r1.png&#34; class=&#34;T-Lcorner&#34;&gt;
       &lt;div class=&#34;T-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-6_r1.png&#34; class=&#34;T-Rcorner&#34;&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-bind&#34;&gt;
       &lt;div class=&#34;ingredient-list-body&#34;&gt;
@@ -623,9 +466,9 @@ all the bleod goingh streait too mai borgeir
       &lt;div class=&#34;ingredient-list-edge&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;ingredient-list-grid-bottom&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-9.png&#34; class=&#34;B-Lcorner&#34;&gt;
       &lt;div class=&#34;B-middle&#34;&gt;&lt;/div&gt;
-      &lt;img src=&#34;http://localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
+      &lt;img src=&#34;//localhost:1313/images/notebookArtboard-1-copy-8.png&#34; class=&#34;B-Rcorner&#34;&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
@@ -633,15 +476,6 @@ all the bleod goingh streait too mai borgeir
 &lt;p&gt;Flip ivan on to his head&lt;/p&gt;
 &lt;p&gt;send the bleod to his borgier&lt;/p&gt;
 </description>
-	</item>
-	
-	<item>
-		<title>Search</title>
-		<link>http://localhost:1313/search/</link>
-		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-		
-		<guid>http://localhost:1313/search/</guid>
-		<description></description>
 	</item>
 	
 	</channel>

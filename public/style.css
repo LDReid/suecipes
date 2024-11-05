@@ -5,13 +5,15 @@
 	--greyblue-fade: #9cabae;
 	--greyblue: #698990;
 	--medium-text:#9c9c9c;
-
 }
 
 body {
 	font-family: "PT Serif";
 	color: var(--text);
 	background-color: var(--bg);
+	/*background-image: url(/images/tumblr_o00v9kI1DU1uj6uxbo1_1280.jpg);*/
+	background-size:cover;
+	background-attachment: fixed;
 	margin:0;
 
 }
@@ -52,8 +54,7 @@ body {
 	  }
 
 .top-bar{
-	margin-inline:50px;
-	margin-block:50px;
+	margin:30px 50px 50px 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -81,12 +82,7 @@ main {
 img {
 	max-width: 100% ;
 }
-header{
-	border-bottom: 1px dotted var(--medium-text);
-}
-header h1 {
-	text-align: left ;
-}
+
 a{
 	color: var(--greyblue);
 }
@@ -102,7 +98,7 @@ li{
 }
 #recipes-main{
 	display:grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 }
 #recipes-main li a{
 	text-decoration: none;
@@ -181,7 +177,6 @@ th{
 	background-image: url(/images/k01-bg-biascheck_r1.gif);
 	background-repeat: repeat;
 	background-size: 40px;
-	border-radius: 10px;
 	image-rendering: pixelated;
 }
 .ingredient-list-grid-top{
@@ -232,7 +227,7 @@ background-repeat: repeat;
 
 .breadcrumbs, .post_meta {
     color: var(--secondary);
-    font-size: 13px;
+    font-size: 14px;
     display: flex;
     flex-wrap: wrap;
 	font-weight: normal;
@@ -245,7 +240,7 @@ form{
 	display:flex;
 	gap:2px;
 }
-button{
+/*button{
 	font-size: 11px;
 	text-transform: uppercase;
 	font-family: "PT Serif Caption";
@@ -256,15 +251,16 @@ button{
 button:active{
 	background-color: var(--bg);
 	transform: scale(0.95);
-}
+}*/
 .search{
-	margin-top:-40px;
+	position: relative;
+	margin-top:-50px;
 	padding:15px;
 	border-radius: 4px;
 	background-color: white;
 	border:3px solid var(--bg);
 }
-#search-query {
+.search-text {
 	font-family: "PT Serif Caption";
     width: 100%;
     font-weight: normal;
@@ -272,30 +268,39 @@ button:active{
 	border-radius: 2px;
 }
 
-#search-results li {
-    list-style: none;
-    border-radius: 7px;
-    padding: 10px;
-    margin: 10px 0;
-    position: relative;
-    font-weight: 500;
-}
 .leon-wrapper{
 	max-width:500px;
 	margin:0 auto;
 }
-#leon{
-	position: relative;
-}
 #sheep{
 	display: block;
 	margin:0 auto;
+}
+.flower-wrapper{
+	max-width: 500px ;
+	margin:0 auto;
+	padding-inline:20px;
+	display: flex;
+}
+/*#flowers{
+	width:120px;
+	margin-left:-60px;
+	margin-top:-30px;
+	display: inline;
+	height: 100%;
+}*/
+#emnsue{
+	max-width:300px;
+	margin:0 auto;
+	margin-bottom: 50px;
+	margin-top: -50px;
 }
 
 @media screen and (max-width: 650px){
 	.top-bar{
 		margin-inline:auto;
 		max-width:600px;
+		margin:20px 0px 50px 0px;
 		padding-inline:15px;
 	}
 }
