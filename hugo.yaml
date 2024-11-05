@@ -9,6 +9,9 @@ params:
   relatedtext: ""
   favicon: "/favicon.ico"
 
+  basePath: "/"
+  searchLimit: 10
+
   #single
   hideAuthor: true
   ShowWordCount: false
@@ -30,6 +33,7 @@ params:
       unsafe: true
 
 
+
   # fuseOpts:
   #     isCaseSensitive: false
   #     shouldSort: true
@@ -49,5 +53,5 @@ outputFormats:
     notAlternative: true
 
 outputs:
-  home: ["HTML","RSS", "SearchIndex"]
+  #home: ["HTML","RSS", "JSON", "SearchIndex"]
   section: ["HTML","RSS", "JSON"]

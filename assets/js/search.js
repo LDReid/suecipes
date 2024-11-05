@@ -102,24 +102,29 @@ import * as params from '@params';
       }
     });*/
   
-    // Show the search UI
+    /*// Show the search UI
     document.querySelector('.search-loading').classList.add('hidden');
     document.querySelector('.search-input').classList.remove('hidden');
-    searchInput.focus();
+    searchInput.focus();*/
   }
   
 
   function buildIndex() {
-    const searchindex = params.basePath + 'searchindex.json';
-    document.querySelector('.search-loading').classList.remove('hidden');
+    const searchindex = 'searchindex.json';
+    console.log("Fetching search index from:", searchindex);
     fetch(searchindex)
       .then(function (response) {
+        if (!response.ok) throw new Error("Network response was not ok");
         return response.json();
       })
       .then(function (data) {
+        console.log("Index data:", data);
         data.forEach(function (item) {
           index.add(item);
         });
+      })
+      .catch(function (error) {
+        console.error("Fetch error:", error);
       });
   }
 
