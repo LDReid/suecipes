@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Chili Con Carne | Suecipes</title>
-	<link rel="canonical" href="suecipes.netlify.app/">
+	<link rel="canonical" href="//localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Suecipes RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<link rel="icon" href="/favicon.ico">
@@ -112,9 +112,31 @@ all the bleod goingh streait too mai borgeir
 <div class="page-intro"></div>
 <main>
 
+<p class="error message js-hidden"></p>
+<p class="search-loading status message hidden"></p>
+
+<div class="search hidden">
+  <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+    <label for="query" class="visually-hidden"></label>
+    <input type="search" id="query" name="query" class="search-text" placeholder="Search recipes..." maxlength="128">
+  </form>
+</div>
+
 <div class="search-results"></div>
 
-  <header><h1 id="tag_Chili con carne"><div class="breadcrumbs"><a href="suecipes.netlify.app/">Home</a></div>
+<template>
+  <article class="search-result list-view">
+    <header>
+      <h2 class="title mt--s mb--xxs"><a href="#">Title here</a></h2>
+      <div class="submitted"><time class="created-date">Date here</time></div>
+    </header>
+    <p class="content">Summary here</p>
+  </article>
+</template>
+
+<div class="search-results"></div>
+
+  <header><h1 id="tag_Chili con carne"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a></div>
 Chili con carne
 <div class="post_meta">
   
@@ -219,13 +241,13 @@ all the bleod goingh streait too mai borgeir
 <p>send the bleod to his borgier</p>
 
 
-<div style="clear:both" class=taglist><a id="tag_chilli" href="suecipes.netlify.app/tags/chilli">#Chilli</a> &middot; <a id="tag_comfort" href="suecipes.netlify.app/tags/comfort">#Comfort</a> &middot; <a id="tag_warm" href="suecipes.netlify.app/tags/warm">#Warm</a></div>
+<div style="clear:both" class=taglist><a id="tag_chilli" href="//localhost:1313/tags/chilli">#Chilli</a> &middot; <a id="tag_comfort" href="//localhost:1313/tags/comfort">#Comfort</a> &middot; <a id="tag_warm" href="//localhost:1313/tags/warm">#Warm</a></div>
 </article>
 </main>
 
 
 <footer>
-	<a href="suecipes.netlify.app/">suecipes.netlify.app/</a>
+	<a href="//localhost:1313/">//localhost:1313/</a>
 </footer>
 
 </body>

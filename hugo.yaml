@@ -42,12 +42,12 @@ params:
 
 summaryLength: 30
 
-outputFormats:
- SearchIndex:
-    mediaType: "application/json"
-    baseName: "searchindex"
-    isPlainText: true
-    notAlternative: true
+#outputFormats:
+ #SearchIndex:
+ #   mediaType: "application/json"
+  #  baseName: "searchindex"
+   # isPlainText: true
+    #notAlternative: true
 
 outputs:
   section: ["HTML","RSS", "JSON", "SearchIndex"]

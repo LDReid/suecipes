@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<title>Warm | Suecipes</title>
-	<link rel="canonical" href="suecipes.netlify.app/">
+	<link rel="canonical" href="//localhost:1313/">
 	<link rel='alternate' type='application/rss+xml' title="Suecipes RSS" href='/index.xml'>
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	<link rel="icon" href="/favicon.ico">
@@ -31,6 +31,28 @@
 <div class="page-intro"></div>
 <main>
 
+<p class="error message js-hidden"></p>
+<p class="search-loading status message hidden"></p>
+
+<div class="search hidden">
+  <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
+    <label for="query" class="visually-hidden"></label>
+    <input type="search" id="query" name="query" class="search-text" placeholder="Search recipes..." maxlength="128">
+  </form>
+</div>
+
+<div class="search-results"></div>
+
+<template>
+  <article class="search-result list-view">
+    <header>
+      <h2 class="title mt--s mb--xxs"><a href="#">Title here</a></h2>
+      <div class="submitted"><time class="created-date">Date here</time></div>
+    </header>
+    <p class="content">Summary here</p>
+  </article>
+</template>
+
 <div class="search-results"></div>
 
   <header><h1 id="tag_Warm">#
@@ -41,7 +63,7 @@ Warm</h1></header>
 
 
 <ul id="recipes-main">
-<li><a href="suecipes.netlify.app/chilli/">Chili con carne</a></li>
+<li><a href="/chilli/">Chili con carne</a></li>
 </ul>
 <script>
 
@@ -64,7 +86,7 @@ Warm</h1></header>
 
 
 <footer>
-	<a href="suecipes.netlify.app/">suecipes.netlify.app/</a>
+	<a href="//localhost:1313/">//localhost:1313/</a>
 </footer>
 
 </body>
