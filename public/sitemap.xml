@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/pumpkin/</loc>
+    <loc>suecipes.netlify.app/tags/pumpkin/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/pumpkin-bread/</loc>
+    <loc>suecipes.netlify.app/pumpkin-bread/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>suecipes.netlify.app/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>suecipes.netlify.app/tags/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/chicken/</loc>
+    <loc>suecipes.netlify.app/tags/chicken/</loc>
     <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lemon-chicken-orzo-soup/</loc>
+    <loc>suecipes.netlify.app/lemon-chicken-orzo-soup/</loc>
     <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/soup/</loc>
+    <loc>suecipes.netlify.app/tags/soup/</loc>
     <lastmod>2024-11-03T14:58:21-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/baking/</loc>
+    <loc>suecipes.netlify.app/tags/baking/</loc>
     <lastmod>2024-11-03T14:48:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cookies/</loc>
+    <loc>suecipes.netlify.app/tags/cookies/</loc>
     <lastmod>2024-11-03T14:48:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/grandads-ginger-molasses-cookies/</loc>
+    <loc>suecipes.netlify.app/grandads-ginger-molasses-cookies/</loc>
     <lastmod>2024-11-03T14:48:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/crispy-baked-chicken-thighs/</loc>
+    <loc>suecipes.netlify.app/crispy-baked-chicken-thighs/</loc>
     <lastmod>2024-11-03T14:33:07-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/chilli/</loc>
+    <loc>suecipes.netlify.app/chilli/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/chilli/</loc>
+    <loc>suecipes.netlify.app/tags/chilli/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/comfort/</loc>
+    <loc>suecipes.netlify.app/tags/comfort/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/warm/</loc>
+    <loc>suecipes.netlify.app/tags/warm/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>suecipes.netlify.app/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>suecipes.netlify.app/search/</loc>
   </url>
 </urlset>
