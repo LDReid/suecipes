@@ -9,9 +9,6 @@ params:
   relatedtext: ""
   favicon: "/favicon.ico"
 
-  basePath: "/"
-  searchLimit: 10
-
   #single
   hideAuthor: true
   ShowWordCount: false
@@ -46,12 +43,12 @@ params:
 summaryLength: 30
 
 outputFormats:
-  SearchIndex:
+ SearchIndex:
     mediaType: "application/json"
     baseName: "searchindex"
     isPlainText: true
     notAlternative: true
 
 outputs:
-  #home: ["HTML","RSS", "JSON", "SearchIndex"]
+  home: ["HTML","RSS", "SearchIndex"]
   section: ["HTML","RSS", "JSON"]

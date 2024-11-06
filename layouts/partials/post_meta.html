@@ -20,13 +20,6 @@
       {{- $metadata = $metadata | append (printf "<span>%s</span>" $wordCount) -}}
     {{- end }}
   
-    <!-- Show Author if hideAuthor is not true -->
-    {{- if not (.Param "hideAuthor") -}}
-      {{- with (partial "author.html" .) }}
-        {{- $metadata = $metadata | append (printf "<span>%s</span>" .) -}}
-      {{- end }}
-    {{- end }}
-  
     <!-- Display Total Time if totaltime is set -->
     {{- if (.Param "totaltime") -}}
       {{- $metadata = $metadata | append (printf "<span>⏱️ %s</span>" .Params.totaltime) -}}
