@@ -50,5 +50,5 @@ outputFormats:
     notAlternative: true
 
 outputs:
-  home: ["HTML","RSS", "SearchIndex"]
-  section: ["HTML","RSS", "JSON"]
+  section: ["HTML","RSS", "JSON", "SearchIndex"]
+  section: ["HTML","RSS", "JSON", "SearchIndex"]
