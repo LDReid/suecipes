@@ -9,7 +9,7 @@ ShowBreadCrumbs: true
 ShowToc: true
 TocOpen: true
 totaltime: 45 mins
-yield: 2½ dozen cookies
+yield: 21/2 dozen cookies
 ---
 {{< ingredient_list >}}
 |Ingredient|Amount|
@@ -21,7 +21,7 @@ yield: 2½ dozen cookies
 |Pure vanilla extract|2 teaspoons (10 ml)|
 |Pure almond extract, optional|¼ teaspoon (1.25 ml)|
 |Fine-grain sea salt|¼ teaspoon (1.2 g)|
-|Unbleached all-purpose flour|2½ cups (300 g)|
+|Unbleached all-purpose flour|21/2 cups (300 g)|
 |**For the Sugar Coating**||
 |Granulated cane sugar, or regular granulated sugar|⅔ cup (133 g)|
 |**For the Jam Filling**||
@@ -36,9 +36,9 @@ Using an electric stand mixer fitted with paddle attachment, or handheld electri
 
 Add egg yolks and extracts; mix until well incorporated. Add salt and flour; mix on low speed until just incorporated and dough forms into a ball.
 
-Shape dough into 1-inch balls, roll in sugar to coat and place on prepared baking sheets about 1½ inches apart. Using thumb or end of wooden spoon, make an indentation in center of each cookie.
+Shape dough into 1-inch balls, roll in sugar to coat and place on prepared baking sheets about 11/2 inches apart. Using thumb or end of wooden spoon, make an indentation in center of each cookie.
 
-Fill each cookie with about ½ teaspoon jam, being careful not to overfill.
+Fill each cookie with about 1/2 teaspoon jam, being careful not to overfill.
 
 Bake in preheated oven until cookies are set and very lightly browned on the bottom edges, about 15 minutes.
 
@@ -46,7 +46,7 @@ Transfer cookies to wire racks to cool completely. Store in an airtight containe
 
 ## Notes
 
-For Gluten-Free Perfect Jam Thumbprint Cookies: Substitute 2½ cups (400 g) King Arthur Flour® Gluten Free Multi-Purpose Flour and 1¼ teaspoons (3.5 g) guar gum, such as by Now Foods, for the regular all-purpose wheat flour called for in the recipe. (It's important to whisk in guar gum until evenly distributed throughout the flour because it is very sticky once moisture is added and sticky lumps are undesirable in dough.)
+For Gluten-Free Perfect Jam Thumbprint Cookies: Substitute 21/2 cups (400 g) King Arthur Flour® Gluten Free Multi-Purpose Flour and 1¼ teaspoons (3.5 g) guar gum, such as by Now Foods, for the regular all-purpose wheat flour called for in the recipe. (It's important to whisk in guar gum until evenly distributed throughout the flour because it is very sticky once moisture is added and sticky lumps are undesirable in dough.)
 
 ## Shopping Suggestions
 

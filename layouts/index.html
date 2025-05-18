@@ -2,15 +2,11 @@
 <div id="emnsue">
 <img src="/images/polaroid.png" alt="mother and daughter pictured in a nostalgic polaroid, composite photo that reads em and sue in the caption.">
 </div>
-{{ partial "search-box.html" . }}
 
 {{ end }}
 
 {{ define "main"}}
-<div class="divbaking-wrapper">
-	<img src="/images/divbaking2.gif" alt="" id="divbaking2">
-	<img src="/images/divbaking1.gif" alt="" id="divbaking1">
-</div>
+
 <div class="index-wrapper">
 	<div class="ingredient-list-grid-top">
 		<img src="/images/notebookArtboard-1-copy-7_r1.png" class="T-Lcorner">
@@ -21,6 +17,7 @@
 	  <div class="ingredient-list-bind">
 		<div class="ingredient-list-body">
 		  <div class="ingredient-list">
+            {{ partial "search-box.html" . }}
 			<ul id="recipes-main">
 				{{ range where .Site.RegularPages "Params.type" "recipe" }}
 					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

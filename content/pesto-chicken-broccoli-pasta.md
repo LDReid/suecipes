@@ -18,7 +18,7 @@ yield: 4 servings
 |Olive oil|1 tablespoon|
 |Onion, minced|1/2|
 |Garlic cloves, minced|4|
-|Chicken breasts, sliced into ½ inch strips|2|
+|Chicken breasts, sliced into 1/2 inch strips|2|
 |Light cream|1 cup|
 |Grated parmesan cheese|1/4 cup|
 |Pesto|1/4 cup|

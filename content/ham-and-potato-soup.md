@@ -15,13 +15,13 @@ yield: 8 servings
 {{< ingredient_list >}}
 |Ingredient|Amount|
 |---|---|
-|Potatoes, peeled and diced|3 ½ cups|
-|Celery, diced|½ cup|
-|Onion, finely chopped|½ cup|
+|Potatoes, peeled and diced|3 1/2 cups|
+|Celery, diced|1/2 cup|
+|Onion, finely chopped|1/2 cup|
 |Cooked ham, diced|¾ cup|
 |Water|3 ¼ cups|
 |Chicken bouillon granules|2 tablespoons|
-|Salt|½ teaspoon (or to taste)|
+|Salt|1/2 teaspoon (or to taste)|
 |Ground white or black pepper|1 teaspoon (or to taste)|
 |Butter|5 tablespoons|
 |All-purpose flour|5 tablespoons|
