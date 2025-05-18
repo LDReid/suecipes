@@ -2,8 +2,8 @@
 	--text: rgb(35, 31, 32);
 	--border: rgb(238, 238, 238);
 	--bg: #f6f5f2;
-	--greyblue-fade: #9cabae;
-	--greyblue: #698990;
+	--greyblue-fade: #c99e91;
+	--greyblue: #804b3b;
 	--medium-text:#9c9c9c;
 }
 
@@ -75,8 +75,8 @@ body {
 main {
 	max-width: 500px ;
 	margin: auto ;
-	background-color: white;
 	padding:20px;
+	padding-top: 0;
 }
 
 img {
@@ -99,6 +99,7 @@ li{
 #recipes-main{
 	display:grid;
 	grid-template-columns: 1fr;
+	width:100%;
 }
 #recipes-main li a{
 	text-decoration: none;
@@ -190,6 +191,7 @@ th{
 }
 .ingredient-list-body{
 	display:flex;
+	width:100%;
 }
 .ingredient-list{
 	display:flex;
@@ -201,6 +203,7 @@ th{
 	/*background: var(--code-bg);*/
 	background-image: url(/images/notebookArtboard-1-copy-3.png);
 	border-radius: var(--radius);
+	width:100%;
 	/*max-width:max-content;*/
 }
 
@@ -303,4 +306,47 @@ button:active{
 		margin:20px 0px 50px 0px;
 		padding-inline:15px;
 	}
+}
+.divbaking-wrapper{
+	text-align: center;
+}
+.sleepleon-wrapper {
+    max-width: 500px;
+    margin-top: -30px;
+	text-align: right;
+}
+
+#sleepleon{
+    width: 158px;
+    height: auto;
+	image-rendering: pixelated;
+}
+
+/* Recipe Search Styling */
+.search-container {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.recipe-search-input {
+  width: 80%;
+  padding: 10px 15px;
+  font-family: "PT Serif Caption", serif;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 25px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.recipe-search-input:focus {
+  outline: none;
+  border-color: var(--greyblue);
+  box-shadow: 0 0 5px rgba(105, 137, 144, 0.5);
+}
+
+.recipe-search-input::placeholder {
+  color: var(--medium-text);
+  opacity: 0.7;
 }

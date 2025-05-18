@@ -25,6 +25,10 @@
 	<meta name="theme-color" content="#ffffff">
 
 	
+<script src="/libs/fuse.min.c57339c3fa16b1d69d9a6b46749a8139ef8d4fc9bbfe48144ff897aa7d4222ec.js"></script>
+
+
+<script src="/js/search.744ada74d21832ccf0da1b6e44bd33b49e1e7a3a6267e535e8ec26c2e8aa1133.js"></script> 
 
 </head>
 <body>
@@ -33,49 +37,87 @@
 <div id="emnsue">
 <img src="/images/polaroid.png" alt="mother and daughter pictured in a nostalgic polaroid, composite photo that reads em and sue in the caption.">
 </div>
+<div class="search-container">
+  <input 
+    type="text" 
+    id="recipe-search" 
+    class="recipe-search-input" 
+    placeholder="Search recipes..." 
+    aria-label="Search recipes"
+  >
+</div> 
+
 </div>
 <main>
 
-<p class="error message js-hidden"></p>
-<p class="search-loading status message hidden"></p>
-
-<div class="search hidden">
-  <form id="search-form" class="search-form" action="#" method="post" accept-charset="UTF-8" role="search">
-    <label for="query" class="visually-hidden"></label>
-    <input type="search" id="query" name="query" class="search-text" placeholder="Search recipes..." maxlength="128">
-  </form>
-</div>
-
-<div class="search-results"></div>
-
-<template>
-  <article class="search-result list-view">
-    <header>
-      <h2 class="title mt--s mb--xxs"><a href="#">Title here</a></h2>
-      <div class="submitted"><time class="created-date">Date here</time></div>
-    </header>
-    <p class="content">Summary here</p>
-  </article>
-</template>
-
-<div class="search-results"></div>
 
 <article>
 
 
-<ul id="recipes-main">
-
-    <li><a href="//localhost:1313/pumpkin-bread/">Pumpkin Bread</a></li>
-
-    <li><a href="//localhost:1313/lemon-chicken-orzo-soup/">Lemon Chicken Orzo Soup</a></li>
-
-    <li><a href="//localhost:1313/grandads-ginger-molasses-cookies/">Grandads Ginger Molasses Cookies</a></li>
-
-    <li><a href="//localhost:1313/crispy-baked-chicken-thighs/">Crispy Baked Chicken Thighs</a></li>
-
-    <li><a href="//localhost:1313/chilli/">Chili con carne</a></li>
-
-</ul>
+<div class="divbaking-wrapper">
+	<img src="/images/divbaking2.gif" alt="" id="divbaking2">
+	<img src="/images/divbaking1.gif" alt="" id="divbaking1">
+</div>
+<div class="index-wrapper">
+	<div class="ingredient-list-grid-top">
+		<img src="/images/notebookArtboard-1-copy-7_r1.png" class="T-Lcorner">
+		<div class="T-middle"></div>
+		<img src="/images/notebookArtboard-1-copy-6_r1.png" class="T-Rcorner">
+	  </div>
+	  
+	  <div class="ingredient-list-bind">
+		<div class="ingredient-list-body">
+		  <div class="ingredient-list">
+			<ul id="recipes-main">
+				
+					<li><a href="//localhost:1313/cinnamon-buns/">Cinnamon Buns</a></li>
+				
+					<li><a href="//localhost:1313/pumpkin-bread/">Pumpkin Bread</a></li>
+				
+					<li><a href="//localhost:1313/lemon-chicken-orzo-soup/">Lemon Chicken Orzo Soup</a></li>
+				
+					<li><a href="//localhost:1313/grandads-ginger-molasses-cookies/">Grandads Ginger Molasses Cookies</a></li>
+				
+					<li><a href="//localhost:1313/chilli/">Chili con carne</a></li>
+				
+					<li><a href="//localhost:1313/apple-cream-cheese-bundt-cake/">Apple Cream Cheese Bundt Cake</a></li>
+				
+					<li><a href="//localhost:1313/maritime-clam-chowder/">Maritime Clam Chowder</a></li>
+				
+					<li><a href="//localhost:1313/honey-garlic-chicken-breast/">Honey Garlic Chicken Breast</a></li>
+				
+					<li><a href="//localhost:1313/greek-slow-roasted-leg-of-lamb/">Greek Slow Roasted Leg of Lamb</a></li>
+				
+					<li><a href="//localhost:1313/fettuccine-carbonara/">Fettuccine Carbonara</a></li>
+				
+					<li><a href="//localhost:1313/strawberry-jam-crumble-bars/">Strawberry Jam Crumble Bars</a></li>
+				
+					<li><a href="//localhost:1313/pesto-chicken-broccoli-pasta/">Pesto Chicken and Broccoli Pasta</a></li>
+				
+					<li><a href="//localhost:1313/ham-and-potato-soup/">Ham and Potato Soup</a></li>
+				
+					<li><a href="//localhost:1313/beef-stroganoff/">Beef Stroganoff</a></li>
+				
+					<li><a href="//localhost:1313/martha-stewart-scalloped-potatoes/">Martha Stewart Scalloped Potatoes</a></li>
+				
+					<li><a href="//localhost:1313/crispy-baked-chicken-thighs/">Crispy Baked Chicken Thighs</a></li>
+				
+					<li><a href="//localhost:1313/jam-thumbprint-cookies/">Jam Thumbprint Cookies</a></li>
+				
+				</ul>
+		  </div>
+		</div>
+		<div class="ingredient-list-edge"></div>
+	  </div>
+	  <div class="ingredient-list-grid-bottom">
+      <img src="/images/notebookArtboard-1-copy-9.png" class="B-Lcorner">
+      <div class="B-middle"></div>
+      <img src="/images/notebookArtboard-1-copy-8.png" class="B-Rcorner">
+    </div>
+</div>	
+<div class="sleepleon-wrapper">
+	<img src="/images/sleepleon.gif" alt="A sleeping Snorlax-like creature" id="sleepleon">
+</div>
 <script>
 
 	

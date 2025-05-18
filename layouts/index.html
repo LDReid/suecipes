@@ -2,13 +2,43 @@
 <div id="emnsue">
 <img src="/images/polaroid.png" alt="mother and daughter pictured in a nostalgic polaroid, composite photo that reads em and sue in the caption.">
 </div>
+{{ partial "search-box.html" . }}
+
 {{ end }}
+
 {{ define "main"}}
-<ul id="recipes-main">
-{{ range where .Site.RegularPages "Params.type" "recipe" }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>
+<div class="divbaking-wrapper">
+	<img src="/images/divbaking2.gif" alt="" id="divbaking2">
+	<img src="/images/divbaking1.gif" alt="" id="divbaking1">
+</div>
+<div class="index-wrapper">
+	<div class="ingredient-list-grid-top">
+		<img src="/images/notebookArtboard-1-copy-7_r1.png" class="T-Lcorner">
+		<div class="T-middle"></div>
+		<img src="/images/notebookArtboard-1-copy-6_r1.png" class="T-Rcorner">
+	  </div>
+	  
+	  <div class="ingredient-list-bind">
+		<div class="ingredient-list-body">
+		  <div class="ingredient-list">
+			<ul id="recipes-main">
+				{{ range where .Site.RegularPages "Params.type" "recipe" }}
+					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+				{{ end }}
+				</ul>
+		  </div>
+		</div>
+		<div class="ingredient-list-edge"></div>
+	  </div>
+	  <div class="ingredient-list-grid-bottom">
+      <img src="/images/notebookArtboard-1-copy-9.png" class="B-Lcorner">
+      <div class="B-middle"></div>
+      <img src="/images/notebookArtboard-1-copy-8.png" class="B-Rcorner">
+    </div>
+</div>	
+<div class="sleepleon-wrapper">
+	<img src="/images/sleepleon.gif" alt="A sleeping Snorlax-like creature" id="sleepleon">
+</div>
 <script>
 
 	// Define an array of colors

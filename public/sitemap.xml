@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/cinnamon-buns/</loc>
+    <lastmod>2024-12-07T19:17:14-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-12-07T19:17:14-05:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/pumpkin/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/pumpkin-bread/</loc>
-    <lastmod>2024-11-03T15:19:02-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-11-03T15:19:02-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
@@ -32,9 +35,6 @@
     <loc>//localhost:1313/grandads-ginger-molasses-cookies/</loc>
     <lastmod>2024-11-03T14:48:02-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/crispy-baked-chicken-thighs/</loc>
-    <lastmod>2024-11-03T14:33:07-05:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/chilli/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,6 +46,150 @@
   </url><url>
     <loc>//localhost:1313/tags/warm/</loc>
     <lastmod>2024-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/apple/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/apple-cream-cheese-bundt-cake/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/bundt/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cake/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/chowder/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/clams/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/comfort-food/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cream-cheese/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/dessert/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/maritime-clam-chowder/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/seafood/</loc>
+    <lastmod>2023-01-01T12:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/easy/</loc>
+    <lastmod>2022-08-04T09:18:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/honey-garlic-chicken-breast/</loc>
+    <lastmod>2022-08-04T09:18:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/quick/</loc>
+    <lastmod>2022-08-04T09:18:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/western/</loc>
+    <lastmod>2022-08-04T09:18:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/dinner/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/greek/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/greek-slow-roasted-leg-of-lamb/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/lamb/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/roast/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/slow-cooking/</loc>
+    <lastmod>2021-12-22T10:24:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/bacon/</loc>
+    <lastmod>2021-12-11T19:58:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/fettuccine-carbonara/</loc>
+    <lastmod>2021-12-11T19:58:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/italian/</loc>
+    <lastmod>2021-12-11T19:58:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/pasta/</loc>
+    <lastmod>2021-12-11T19:58:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/bars/</loc>
+    <lastmod>2021-06-14T19:52:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/jam/</loc>
+    <lastmod>2021-06-14T19:52:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/strawberry/</loc>
+    <lastmod>2021-06-14T19:52:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/strawberry-jam-crumble-bars/</loc>
+    <lastmod>2021-06-14T19:52:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/broccoli/</loc>
+    <lastmod>2021-05-20T19:03:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/creamy/</loc>
+    <lastmod>2021-05-20T19:03:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/one-pan/</loc>
+    <lastmod>2021-05-20T19:03:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/pesto/</loc>
+    <lastmod>2021-05-20T19:03:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/pesto-chicken-broccoli-pasta/</loc>
+    <lastmod>2021-05-20T19:03:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/ham/</loc>
+    <lastmod>2021-01-13T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/ham-and-potato-soup/</loc>
+    <lastmod>2021-01-13T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/potato/</loc>
+    <lastmod>2021-01-13T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/beef/</loc>
+    <lastmod>2020-12-14T18:25:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/beef-stroganoff/</loc>
+    <lastmod>2020-12-14T18:25:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/gruyere/</loc>
+    <lastmod>2020-11-15T18:23:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/martha-stewart-scalloped-potatoes/</loc>
+    <lastmod>2020-11-15T18:23:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/potatoes/</loc>
+    <lastmod>2020-11-15T18:23:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/side-dish/</loc>
+    <lastmod>2020-11-15T18:23:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/american/</loc>
+    <lastmod>2020-10-06T14:14:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/crispy-baked-chicken-thighs/</loc>
+    <lastmod>2020-10-06T14:14:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/main-course/</loc>
+    <lastmod>2020-10-06T14:14:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/christmas/</loc>
+    <lastmod>2019-09-08T10:26:00-05:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/jam-thumbprint-cookies/</loc>
+    <lastmod>2019-09-08T10:26:00-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>

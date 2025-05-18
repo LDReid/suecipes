@@ -1,128 +1,108 @@
-/**
- * @file
- * A JavaScript file for flexsearch.
- */
-
-/* eslint-disable */
-import * as params from '@params';
-/* eslint-enable */
-
-/* eslint-disable no-undef, guard-for-in */
-(function () {
-
-  'use strict';
-
-  const index = new FlexSearch.Document({
-    document: {
-      id: 'id',
-      index: ['title', 'tags', 'content', 'date'],
-      store: ['title', 'summary', 'date', 'permalink']
-    },
-    tokenize: 'forward'
-  });
-
-  function showResults(items) {
-    const template = document.querySelector('template').content;
-    const fragment = document.createDocumentFragment();
-    const results = document.querySelector('.search-results');
-    results.textContent = '';
-
-    for (const id in items) {
-      const item = items[id];
-      const result = template.cloneNode(true);
-      const a = result.querySelector('a');
-      const time = result.querySelector('time');
-      const content = result.querySelector('.content');
-      a.innerHTML = item.title;
-      a.href = item.permalink;
-      time.innerText = item.date;
-      content.innerHTML = item.summary;
-      fragment.appendChild(result);
+// Wait for DOM to load
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if search elements exist
+    const searchInput = document.getElementById('search-input');
+    const searchResults = document.getElementById('search-results');
+    const searchForm = document.getElementById('search-form');
+    
+    if (!searchInput || !searchResults || !searchForm) return;
+    
+    // Prevent form submission
+    searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+    });
+    
+    // Initialize variables
+    let searchIndex = [];
+    let fuseInstance = null;
+    
+    // Fetch the search index
+    fetch('/index.json')
+        .then(response => response.json())
+        .then(data => {
+            searchIndex = data.items;
+            initFuse(searchIndex);
+        })
+        .catch(error => console.error('Error fetching search index:', error));
+    
+    // Initialize Fuse.js
+    function initFuse(searchData) {
+        const options = {
+            includeScore: true,
+            keys: [
+                { name: 'title', weight: 0.8 },
+                { name: 'tags', weight: 0.6 },
+                { name: 'content_html', weight: 0.4 }
+            ],
+            threshold: 0.3
+        };
+        fuseInstance = new Fuse(searchData, options);
+        
+        // Now that Fuse is ready, add the input event listener
+        searchInput.addEventListener('input', debounce(performSearch, 350));
     }
-    results.appendChild(fragment);
-  }
-
-  function doSearch() {
-    const query = document.querySelector('.search-text').value.trim();
-    const resultsContainer = document.querySelector('.search-results');
     
-    // Perform the search
-    const results = index.search({
-      query: query,
-      enrich: true,
-      limit: params.searchLimit
-    });
-    
-    const items = {};
-    results.forEach(function (result) {
-      result.result.forEach(function (r) {
-        items[r.id] = r.doc;
-      });
-    });
-    
-    // Toggle display based on search input and results
-    if (query.length > 0 && Object.keys(items).length > 0) {
-      resultsContainer.style.display = 'block';  // Show results if there is input and results
-    } else {
-      resultsContainer.style.display = 'none';   // Hide if no input or no results
-    }
-  
-    // Render results
-    showResults(items);
-  }
-  
-
-  function enableUI() {
-    const searchform = document.querySelector('.search-form');
-    const searchInput = document.querySelector('.search-text');
-    const resultsContainer = document.querySelector('.search-results');
-  
-    // Search on form submit
-    searchform.addEventListener('submit', function (e) {
-      e.preventDefault();
-      doSearch();
-    });
-  
-    // Search on input
-    searchform.addEventListener('input', function () {
-      doSearch();
-    });
-  
-    // Hide results on Escape key press
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') {
-        resultsContainer.style.display = 'none';  // Hide results on Escape
-      }
-    });
-  
-    // Hide results when clicking outside of input
-    document.addEventListener('click', function (e) {
-      if (!searchform.contains(e.target)) {
-        resultsContainer.style.display = 'none';  // Hide results when clicking outside
-      }
-    });
-  
-    // Show the search UI
-    document.querySelector('.search-loading').classList.add('hidden');
-    document.querySelector('.search-input').classList.remove('hidden');
-    searchInput.focus();
-  }
-  
-
-  function buildIndex() {
-    const searchindex = params.basePath + 'searchindex.json';
-    document.querySelector('.search-loading').classList.remove('hidden');
-    fetch(searchindex)
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (data) {
-        data.forEach(function (item) {
-          index.add(item);
+    // Perform search
+    function performSearch() {
+        if (!fuseInstance) return;
+        
+        const query = searchInput.value.trim();
+        searchResults.innerHTML = '';
+        
+        if (query === '') {
+            searchResults.style.display = 'none';
+            return;
+        }
+        
+        const results = fuseInstance.search(query).slice(0, 10);
+        
+        if (results.length === 0) {
+            searchResults.innerHTML = '<p class="no-results">No recipes found</p>';
+            searchResults.style.display = 'block';
+            return;
+        }
+        
+        // Display results
+        searchResults.style.display = 'block';
+        const resultsList = document.createElement('ul');
+        
+        results.forEach(result => {
+            const item = result.item;
+            const listItem = document.createElement('li');
+            
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.textContent = item.title;
+            
+            const author = document.createElement('span');
+            author.className = 'result-author';
+            author.textContent = item.author ? ` by ${item.author}` : '';
+            
+            listItem.appendChild(link);
+            listItem.appendChild(author);
+            resultsList.appendChild(listItem);
         });
-      });
-  }
-
-  buildIndex();
-  enableUI();
-})();
+        
+        searchResults.appendChild(resultsList);
+    }
+    
+    // Simple debounce function to limit how often the search runs
+    function debounce(func, wait) {
+        let timeout;
+        return function() {
+            const context = this;
+            const args = arguments;
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                func.apply(context, args);
+            }, wait);
+        };
+    }
+    
+    // Close search results when clicking outside
+    document.addEventListener('click', function(e) {
+        if (e.target !== searchInput && e.target !== searchResults && !searchResults.contains(e.target)) {
+            searchResults.style.display = 'none';
+        }
+    });
+}); 
