@@ -10,17 +10,14 @@ params:
   favicon: "/favicon.ico"
 
   # Site description - used in meta tags and social media cards
-  description: "Suecipes - A collection of family recipes passed down through generations, featuring homemade dishes for every occasion."
+  description: "Suecipes - A collection of our favourite recipies simply formatted for easy reading and reference."
   
   # Default social media image (used when a page doesn't have its own image)
-  ogimage: "/images/suecipes-social-card.jpg"
+  ogimage: "/images/opengraph-img.jpg"
   
   # Publisher logo for structured data
-  publisherLogo: "/images/suecipes-logo.jpg"
+  publisherLogo: "/images/leon-icon-01.svg"
   
-  # Default site author
-  author: "Sue"
-
   #list items
   datesinlist: false
   authorsinlist: true
