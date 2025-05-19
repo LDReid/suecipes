@@ -17,26 +17,19 @@
 	<meta charset="utf-8">
 	
 	<!-- Open Graph / Facebook Meta Tags -->
-	<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-	<meta property="og:title" content="{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}">
-	<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}{{ end }}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ .Site.Title }}">
+	<meta property="og:description" content="{{ .Site.Params.description }}">
 	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
-	{{ with .Params.images }}{{ range first 1 . }}
-	<meta property="og:image" content="{{ . | absURL }}">
-	{{ end }}{{ else }}
 	<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}">
-	{{ end }}
+
 	
 	<!-- Twitter Card Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}">
-	<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}{{ end }}">
-	{{ with .Params.images }}{{ range first 1 . }}
-	<meta name="twitter:image" content="{{ . | absURL }}">
-	{{ end }}{{ else }}
+	<meta name="twitter:title" content="{{ .Site.Title }}">
+	<meta name="twitter:description" content="{{ .Site.Params.description }}">
 	<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}">
-	{{ end }}
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
