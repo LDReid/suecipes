@@ -7,12 +7,37 @@
 	<link rel='stylesheet' type='text/css' href='/style.css'>
 	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
 	{{ end -}}
-	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+	
+	<!-- Basic Meta Tags -->
+	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}{{ end }}">
 	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
 	{{ end -}}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
 	<meta charset="utf-8">
+	
+	<!-- Open Graph / Facebook Meta Tags -->
+	<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+	<meta property="og:title" content="{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}">
+	<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}{{ end }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:site_name" content="{{ .Site.Title }}">
+	{{ with .Params.images }}{{ range first 1 . }}
+	<meta property="og:image" content="{{ . | absURL }}">
+	{{ end }}{{ else }}
+	<meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}">
+	{{ end }}
+	
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}">
+	<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}{{ end }}">
+	{{ with .Params.images }}{{ range first 1 . }}
+	<meta name="twitter:image" content="{{ . | absURL }}">
+	{{ end }}{{ else }}
+	<meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}">
+	{{ end }}
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -36,7 +61,7 @@
 <main>
 
 {{ if not .IsHome }}
-  <header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+  <header>{{ partial "breadcrumbs.html" . }}<h1 id="tag_{{ .Title }}" class="title">{{ block "title" . }}{{ end }}</h1>{{ partial "post_meta.html" . }}</header>
 {{ end }}
 <article>
 

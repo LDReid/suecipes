@@ -1,7 +1,8 @@
 :root{
 	--text: rgb(35, 31, 32);
 	--border: rgb(238, 238, 238);
-	--bg: #f6f5f2;
+	/*--bg: #f6f5f2;*/
+	--bg: #f9f4ea;
 	--greyblue-fade: #c99e91;
 	--greyblue: #804b3b;
 	--medium-text:#9c9c9c;
@@ -54,10 +55,11 @@ body {
 	  }
 
 .top-bar{
-	margin:30px 50px 50px 50px;
+	padding:30px 50px 50px 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	image-rendering: pixelated;
 }
 #leon-icon{
 	width:35px;
@@ -73,28 +75,17 @@ body {
 	text-decoration: none;
 }
 .title{
-	text-align: center;
-	font-family: "PT Serif Caption";
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	background-image: url(/images/banner4.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
-	padding-block: 10px;
-	padding-inline: 10px;
-	image-rendering: pixelated;
-}
-.title p {
-	padding-bottom:15px;
-	font-size: 14px;
+	margin-block: 10px;
 }
 main {
 	max-width: 500px ;
 	margin: auto ;
 	padding:20px;
 	padding-top: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	line-height: 1;
+	letter-spacing: -0.02em;
 }
 
 img {
@@ -258,6 +249,9 @@ background-repeat: repeat;
     flex-wrap: wrap;
 	font-weight: normal;
 	font-family: "PT Serif Caption";
+}
+.post_meta{
+	margin-bottom: 20px;
 }
 
 /*search box*/
